@@ -17,6 +17,8 @@ DerivedData/
 !default.perspectivev3
 xcuserdata/
 
+GeneratorModel/
+
 ## Other
 *.moved-aside
 *.xcuserstate
