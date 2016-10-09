@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31965FE41DA3EE0D0042E4BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31965FDD1DA3EE0D0042E4BF /* AppDelegate.m */; };
+		31965FE51DA3EE0D0042E4BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31965FDE1DA3EE0D0042E4BF /* main.m */; };
+		31965FE61DA3EE0D0042E4BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31965FE01DA3EE0D0042E4BF /* Assets.xcassets */; };
+		31965FE71DA3EE0D0042E4BF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31965FE11DA3EE0D0042E4BF /* MainMenu.xib */; };
+		319660041DA4BFB80042E4BF /* LayerModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31965FFC1DA4BFB80042E4BF /* LayerModel.cpp */; };
+		319660051DA4BFB80042E4BF /* LayerModelInt.mm in Sources */ = {isa = PBXBuildFile; fileRef = 319660031DA4BFB80042E4BF /* LayerModelInt.mm */; };
+		3196600A1DA4C0330042E4BF /* ThermalSolverInt.mm in Sources */ = {isa = PBXBuildFile; fileRef = 319660091DA4C0330042E4BF /* ThermalSolverInt.mm */; };
+		3196600D1DA4C3530042E4BF /* ThermalSolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3196600C1DA4C3530042E4BF /* ThermalSolver.cpp */; };
+		319660101DA4E7F90042E4BF /* TSParams.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3196600E1DA4E7F90042E4BF /* TSParams.cpp */; };
+		319660131DA4EAF50042E4BF /* TSParamsInt.mm in Sources */ = {isa = PBXBuildFile; fileRef = 319660121DA4EAF50042E4BF /* TSParamsInt.mm */; };
+		319660161DA69E4D0042E4BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 319660151DA69E4D0042E4BF /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		31965FAB1DA3E6780042E4BF /* PyroelectricGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PyroelectricGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31965FDC1DA3EE0D0042E4BF /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		31965FDD1DA3EE0D0042E4BF /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		31965FDE1DA3EE0D0042E4BF /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		31965FE01DA3EE0D0042E4BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31965FE21DA3EE0D0042E4BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		31965FE31DA3EE0D0042E4BF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31965FFC1DA4BFB80042E4BF /* LayerModel.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp.preprocessed; fileEncoding = 4; path = LayerModel.cpp; sourceTree = "<group>"; };
+		31965FFD1DA4BFB80042E4BF /* LayerModel.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = LayerModel.h; sourceTree = "<group>"; };
+		31965FFF1DA4BFB80042E4BF /* CppStructs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CppStructs.h; sourceTree = "<group>"; };
+		319660021DA4BFB80042E4BF /* LayerModelInt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerModelInt.h; sourceTree = "<group>"; };
+		319660031DA4BFB80042E4BF /* LayerModelInt.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LayerModelInt.mm; sourceTree = "<group>"; };
+		319660081DA4C0330042E4BF /* ThermalSolverInt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThermalSolverInt.h; path = ThermalSolver/ThermalSolverInt.h; sourceTree = "<group>"; };
+		319660091DA4C0330042E4BF /* ThermalSolverInt.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ThermalSolverInt.mm; path = ThermalSolver/ThermalSolverInt.mm; sourceTree = "<group>"; };
+		3196600B1DA4C33B0042E4BF /* ThermalSolver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ThermalSolver.h; path = ThermalSolver/ThermalSolver.h; sourceTree = "<group>"; };
+		3196600C1DA4C3530042E4BF /* ThermalSolver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ThermalSolver.cpp; path = ThermalSolver/ThermalSolver.cpp; sourceTree = "<group>"; };
+		3196600E1DA4E7F90042E4BF /* TSParams.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TSParams.cpp; path = ThermalSolver/TSParams.cpp; sourceTree = "<group>"; };
+		3196600F1DA4E7F90042E4BF /* TSParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSParams.h; path = ThermalSolver/TSParams.h; sourceTree = "<group>"; };
+		319660111DA4EAF50042E4BF /* TSParamsInt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSParamsInt.h; path = ThermalSolver/TSParamsInt.h; sourceTree = "<group>"; };
+		319660121DA4EAF50042E4BF /* TSParamsInt.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = TSParamsInt.mm; path = ThermalSolver/TSParamsInt.mm; sourceTree = "<group>"; };
+		319660141DA69E4D0042E4BF /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		319660151DA69E4D0042E4BF /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31965FA81DA3E6780042E4BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31965FA21DA3E6780042E4BF = {
+			isa = PBXGroup;
+			children = (
+				31965FF81DA4BFB80042E4BF /* Common */,
+				31965FDB1DA3EE0D0042E4BF /* Internal */,
+				31965FDF1DA3EE0D0042E4BF /* Resourcess */,
+				31965FAC1DA3E6780042E4BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31965FAC1DA3E6780042E4BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31965FAB1DA3E6780042E4BF /* PyroelectricGenerator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31965FDB1DA3EE0D0042E4BF /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				31965FDC1DA3EE0D0042E4BF /* AppDelegate.h */,
+				31965FDD1DA3EE0D0042E4BF /* AppDelegate.m */,
+				31965FDE1DA3EE0D0042E4BF /* main.m */,
+				319660141DA69E4D0042E4BF /* ViewController.h */,
+				319660151DA69E4D0042E4BF /* ViewController.m */,
+			);
+			path = Internal;
+			sourceTree = "<group>";
+		};
+		31965FDF1DA3EE0D0042E4BF /* Resourcess */ = {
+			isa = PBXGroup;
+			children = (
+				31965FE01DA3EE0D0042E4BF /* Assets.xcassets */,
+				31965FE11DA3EE0D0042E4BF /* MainMenu.xib */,
+				31965FE31DA3EE0D0042E4BF /* Info.plist */,
+			);
+			path = Resourcess;
+			sourceTree = "<group>";
+		};
+		31965FF81DA4BFB80042E4BF /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				31965FF91DA4BFB80042E4BF /* Solver Implementations C++ */,
+				31965FFE1DA4BFB80042E4BF /* Solver Interfaces Obj-C */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		31965FF91DA4BFB80042E4BF /* Solver Implementations C++ */ = {
+			isa = PBXGroup;
+			children = (
+				319660071DA4BFF50042E4BF /* ThermalSolver */,
+				31965FFA1DA4BFB80042E4BF /* Models */,
+			);
+			name = "Solver Implementations C++";
+			path = CppSolver;
+			sourceTree = "<group>";
+		};
+		31965FFA1DA4BFB80042E4BF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				31965FFB1DA4BFB80042E4BF /* Layer */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		31965FFB1DA4BFB80042E4BF /* Layer */ = {
+			isa = PBXGroup;
+			children = (
+				31965FFD1DA4BFB80042E4BF /* LayerModel.h */,
+				31965FFC1DA4BFB80042E4BF /* LayerModel.cpp */,
+			);
+			path = Layer;
+			sourceTree = "<group>";
+		};
+		31965FFE1DA4BFB80042E4BF /* Solver Interfaces Obj-C */ = {
+			isa = PBXGroup;
+			children = (
+				31965FFF1DA4BFB80042E4BF /* CppStructs.h */,
+				319660061DA4BFDA0042E4BF /* ThermalSolver */,
+				319660001DA4BFB80042E4BF /* Models */,
+			);
+			name = "Solver Interfaces Obj-C";
+			path = Solver;
+			sourceTree = "<group>";
+		};
+		319660001DA4BFB80042E4BF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				319660011DA4BFB80042E4BF /* Layer */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		319660011DA4BFB80042E4BF /* Layer */ = {
+			isa = PBXGroup;
+			children = (
+				319660021DA4BFB80042E4BF /* LayerModelInt.h */,
+				319660031DA4BFB80042E4BF /* LayerModelInt.mm */,
+			);
+			path = Layer;
+			sourceTree = "<group>";
+		};
+		319660061DA4BFDA0042E4BF /* ThermalSolver */ = {
+			isa = PBXGroup;
+			children = (
+				319660081DA4C0330042E4BF /* ThermalSolverInt.h */,
+				319660091DA4C0330042E4BF /* ThermalSolverInt.mm */,
+				319660111DA4EAF50042E4BF /* TSParamsInt.h */,
+				319660121DA4EAF50042E4BF /* TSParamsInt.mm */,
+			);
+			name = ThermalSolver;
+			sourceTree = "<group>";
+		};
+		319660071DA4BFF50042E4BF /* ThermalSolver */ = {
+			isa = PBXGroup;
+			children = (
+				3196600B1DA4C33B0042E4BF /* ThermalSolver.h */,
+				3196600C1DA4C3530042E4BF /* ThermalSolver.cpp */,
+				3196600F1DA4E7F90042E4BF /* TSParams.h */,
+				3196600E1DA4E7F90042E4BF /* TSParams.cpp */,
+			);
+			name = ThermalSolver;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31965FAA1DA3E6780042E4BF /* PyroelectricGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31965FBC1DA3E6780042E4BF /* Build configuration list for PBXNativeTarget "PyroelectricGenerator" */;
+			buildPhases = (
+				31965FA71DA3E6780042E4BF /* Sources */,
+				31965FA81DA3E6780042E4BF /* Frameworks */,
+				31965FA91DA3E6780042E4BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PyroelectricGenerator;
+			productName = PyroelectricGenerator;
+			productReference = 31965FAB1DA3E6780042E4BF /* PyroelectricGenerator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31965FA31DA3E6780042E4BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Sukhorukov Grigory";
+				TargetAttributes = {
+					31965FAA1DA3E6780042E4BF = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 31965FA61DA3E6780042E4BF /* Build configuration list for PBXProject "PyroelectricGenerator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31965FA21DA3E6780042E4BF;
+			productRefGroup = 31965FAC1DA3E6780042E4BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31965FAA1DA3E6780042E4BF /* PyroelectricGenerator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31965FA91DA3E6780042E4BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31965FE61DA3EE0D0042E4BF /* Assets.xcassets in Resources */,
+				31965FE71DA3EE0D0042E4BF /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31965FA71DA3E6780042E4BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				319660161DA69E4D0042E4BF /* ViewController.m in Sources */,
+				319660041DA4BFB80042E4BF /* LayerModel.cpp in Sources */,
+				319660051DA4BFB80042E4BF /* LayerModelInt.mm in Sources */,
+				3196600D1DA4C3530042E4BF /* ThermalSolver.cpp in Sources */,
+				3196600A1DA4C0330042E4BF /* ThermalSolverInt.mm in Sources */,
+				319660101DA4E7F90042E4BF /* TSParams.cpp in Sources */,
+				31965FE51DA3EE0D0042E4BF /* main.m in Sources */,
+				319660131DA4EAF50042E4BF /* TSParamsInt.mm in Sources */,
+				31965FE41DA3EE0D0042E4BF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		31965FE11DA3EE0D0042E4BF /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31965FE21DA3EE0D0042E4BF /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31965FBA1DA3E6780042E4BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Resourcess/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		31965FBB1DA3E6780042E4BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Resourcess/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		31965FBD1DA3E6780042E4BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Resourcess/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.PyroelectricGenerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		31965FBE1DA3E6780042E4BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Resourcess/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.PyroelectricGenerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31965FA61DA3E6780042E4BF /* Build configuration list for PBXProject "PyroelectricGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31965FBA1DA3E6780042E4BF /* Debug */,
+				31965FBB1DA3E6780042E4BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31965FBC1DA3E6780042E4BF /* Build configuration list for PBXNativeTarget "PyroelectricGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31965FBD1DA3E6780042E4BF /* Debug */,
+				31965FBE1DA3E6780042E4BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31965FA31DA3E6780042E4BF /* Project object */;
+}

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F2C414858F2307A6F86C708F3120B55EA2EA3760+++BF99929",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F2C414858F2307A6F86C708F3120B55EA2EA3760+++BF99929" : 0,
+    "F2C414858F2307A6F86C708F3120B55EA2EA3760+++68E0FDE" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F8B61D5F-E8B2-493A-860A-D3C743E9D7B6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F2C414858F2307A6F86C708F3120B55EA2EA3760+++BF99929" : "PyroelectricGenerator\/",
+    "F2C414858F2307A6F86C708F3120B55EA2EA3760+++68E0FDE" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "PyroelectricGenerator",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "PyroelectricGenerator.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/GSukh\/PyroelectricGenerator.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F2C414858F2307A6F86C708F3120B55EA2EA3760+++68E0FDE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/GSukh\/PyroelectricGenerator.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F2C414858F2307A6F86C708F3120B55EA2EA3760+++BF99929"
+    }
+  ]
+}
