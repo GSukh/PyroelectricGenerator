@@ -97,6 +97,26 @@ void ThermalSolver::show(void)
 	}
 }
 
+vector<point> ThermalSolver::data()
+{
+	vector<point> data;
+	
+	int lx = 0;
+	float ax = 0; //actual x
+	for (vector<LayerModel>::iterator it = layers.begin() ; it != layers.end(); ++it)
+	{
+		for (int x = lx; x < lx + it->Nx; x++) {
+			point p;
+			p.x = ax;
+			p.y = buffer[0][x];
+			data.push_back(p);
+			
+			ax += it->dx;
+		}
+		lx += it->Nx;
+	}
+	return data;
+}
 
 
 #pragma mark - private support methods
